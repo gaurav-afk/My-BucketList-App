@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.widget.Toolbar;
 
 public class PlacesToGoActivity extends AppCompatActivity {
 
@@ -11,7 +12,6 @@ public class PlacesToGoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_places_to_go);
-
         setupList();
     }
 

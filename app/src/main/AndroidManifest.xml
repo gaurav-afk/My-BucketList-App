@@ -15,10 +15,13 @@
         <activity
             android:name=".ThingsToDoActivity"
             android:exported="false"
-            android:parentActivityName=".MainActivity" />
+            android:label="Things to do"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity
             android:name=".PlacesToGoActivity"
             android:exported="false"
+            android:label="Places to go"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
