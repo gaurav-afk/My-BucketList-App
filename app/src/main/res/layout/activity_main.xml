@@ -19,7 +19,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/scubadive"
+        android:src="@drawable/thingstodo"
         android:scaleType="centerCrop"/>
 
     <View
@@ -50,7 +50,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/japan"
+            android:src="@drawable/santorini_greece"
             android:scaleType="centerCrop"/>
 
         <View
