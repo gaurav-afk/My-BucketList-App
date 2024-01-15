@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="144dp"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/cv_image_container"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#272727"
+        tools:text="1. Item Heading." />
+
+    <TextView
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_heading"
+        android:layout_marginTop="8dp"
+        android:layout_toStartOf="@id/cv_image_container"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#777777"
+        tools:text="Item decsription. lorem as,dhaiycbiuawtrcvilwatvrcilwatircbtawitrciwtrclwe" />
+
+    <RatingBar
+        android:id="@+id/rb_rating_bar"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cv_image_container"
+        tools:rating="3.5f" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_image_container"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="24dp"
+        app:cardCornerRadius="16dp">
+
+        <ImageView
+            android:id="@+id/iv_item_pic"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:src="@drawable/amazon" />
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
